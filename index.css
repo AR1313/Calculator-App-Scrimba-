@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: whitesmoke
+}
+
+#main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 30px;
+}
+
+/* justify-content: center; */
+
+#output_div {
+    display: flex;
+    justify-content: right;
+    background-color: pink;
+    width: 500px;
+    height: 50px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid white;
+}
+
+.numberBtn {
+    padding: 10px 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 40px;
+}
+
+.wide {
+    padding: 10px 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 50px;
+    width: 200px;
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 40px;
+}
+
+#back {
+    padding: 10px 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 40px;
+}
+
+.row {
+    padding: 5px;
+}
